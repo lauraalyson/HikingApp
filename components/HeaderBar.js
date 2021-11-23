@@ -41,7 +41,7 @@ const HeaderBar = ({ title, leftOnPressed, right, containerStyle }) => {
                     />
                 </TouchableOpacity>
             </View>
-
+            
             <View
                 style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
             >

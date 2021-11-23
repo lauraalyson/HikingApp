@@ -69,7 +69,7 @@ const Dashboard = ({ navigation }) => {
 									color: COLORS.white,
 									...FONTS.h3,
 								}}>
-								ASIA
+								Parks&Rec
 							</Text>
 						</View>
 
@@ -79,8 +79,8 @@ const Dashboard = ({ navigation }) => {
 								source={images.profile_pic}
 								resizeMode='contain'
 								style={{
-									width: 45,
-									height: 45,
+									width: 25,
+									height:25,
 									borderRadius: 30,
 								}}
 							/>
@@ -159,7 +159,7 @@ const Dashboard = ({ navigation }) => {
                         <Animated.View
                             opacity={opacity}
                             style={{
-                                height: 130,
+                                height: 120,
                                 width: COUNTRIES_ITEM_SIZE,
                                 alignItems: 'center',
                                 justifyContent: 'center'

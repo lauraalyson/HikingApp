@@ -26,7 +26,8 @@
     "react-native-screens": "~3.8.0",
     "react-native-web": "0.17.1",
     "react-navigation": "^4.4.4",
-    "rn-sliding-up-panel": "^2.4.5"
+    "rn-sliding-up-panel": "^2.4.5",
+    "expo-font": "~10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
