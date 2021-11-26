@@ -9,16 +9,23 @@ const Stack = createStackNavigator()
 
 const App = () => {
 	return (
-		<NavigationContainer>
+		<NavigationContainer options={{ headerShown: false }}>
 			<Stack.Navigator
 				screenOptions={{
 					headerShown: false,
 				}}
-				initialRouteName={'Dashboard'}
-				>
-				<Stack.Screen name='Dashboard' component={Tabs} />
+				initialRouteName={'Dashboard'}>
+				<Stack.Screen
+					name='Dashboard'
+					component={Tabs}
+					screenOptions={{ headerShown: false }}
+				/>
 
-				<Stack.Screen name='Place' component={Place} />
+				<Stack.Screen
+					screenOptions={{ headerShown: false }}
+					name='Place'
+					component={Place}
+				/>
 			</Stack.Navigator>
 		</NavigationContainer>
 	)
